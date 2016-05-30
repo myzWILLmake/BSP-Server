@@ -1,0 +1,23 @@
+{
+    "name": "BSP-Server",
+    "version":"0.0.1",
+    "description": "Server for BSP",
+    "main": "index.js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/myzWILLmake/BSP-Server.git"
+    },
+    "author": "Yunze",
+    "license": "MIT",
+    "dependencies":{
+        "express": "^4.10.0",
+        "express-session": "^1.10.0",
+        "body-parser": "^1.15.0",
+        "connect-mongo": "^1.1.0",
+        "mongoose": "^4.4.0",
+        "md5": "^2.0.0",
+        "mysql": "^2.10.0",
+        "socket.io": "^1.4.6"
+    }
+}
