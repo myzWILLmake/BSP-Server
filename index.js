@@ -7,15 +7,15 @@ var MongoStore = require('connect-mongo')(session)
 var router = require('./lib/router')
 
 var app = express()
-app.listen(9001)
+app.listen(10010)
 
 var server = require('http').Server(app)
-server.listen(9000)
+server.listen(10011)
 
 var socketServer = require('./lib/socket')
 socketServer.run(server)
 
-console.log('Listening on port 9001...')
+console.log('Listening on port 10010...')
 
 app.use(session({
     secret: 'Akagi.moe',
